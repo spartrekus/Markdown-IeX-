@@ -6,8 +6,8 @@ Markdown (IeX) is a reliable, universal, minimal, method for word processing doc
 - Installation 
 > make ; make install
 
-- Programm
-Markdown (IeX) is powered by several programs such as rtfiex, pdfiex, htmliex,... under the Markword suite.
+- Program
+The program Markdown (IeX) is powered by several programs such as rtfiex, pdfiex, htmliex,... under the Markword suite.
 
 - Syntax
 You may read the files into manual/
