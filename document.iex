@@ -1,0 +1,68 @@
+
+========================================
+             MARKWORD (IeX)
+========================================
+
+# Introduction
+MARKWORD is a complete minimal word processing suite that works like Markdown.
+It allows to use the Markdown format (IeX) which is made 
+to type like you would into Latex or Markdown.
+
+> Why minimal and based on both Latex and Markdown?
+$bu Latex is too long to type?
+$bu Markdown is not sufficiently minimal and it may look nicer.
+
+
+> Advantages
+- Markword has a great syntax.
+- Markword can be completely evolving to better syntax, since it 
+is minimum and you can recompile the core engine without any worries 
+of libraries.
+- Like in C, you do not worry about spaces, since Markword will 
+  do this for you, a bit like in Latex.
+- You can add vertical spaces with $vsp syntax.
+- You can add a new page with $clr syntax.
+
+
+> Libraries
+- Markword is designed to be compiled on any machine that can 
+run the GCC programmation compiler. 
+- It holds on mostly stdio, string, and dirent.
+- It uses fopen (rather than open).
+
+
+> Output files
+Markword allows to create rtf- and pdf-files from an source file (coded in
+ Markword (IeX)).
+
+# Example
+There is nothing better than an example to show how it works.
+Let's start to view a first basic example made for Markword compiler.
+
+
+
+
+$[code]
+/*  bla bla comment */
+// this is a comment
+
+$clr  // here it adds a clearpage
+$toc  // here it adds a toc
+# chapter 1 (section 1)
+## subsection 1
+This is the subsection number 1.
+fsdafdsafda **bold** kdalfjsdjaf.
+$red lkajdsfjkd 
+$blue blue
+$green this is green
+
+## subsection 2
+This is subsection number 2.
+
+/* here we reach the end of file, comment */
+$[/code]
+
+
+
+
+
